@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <mrta charsey="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POrtfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class=icon-bar></span>
+            <span class=icon-bar></span>
+            <span class=icon-bar></span>
+          </button>
+          <a class=navbar-brand href="#profile">Иван Смирнов</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Портфолио</a></li>
+            <li class=""><a href="#skills"><i class="fa fa-wrench" aria-hidden="true"></i> Навыки</a></li>
+            <li class=""><a href="#works#"><i class="fa fa-briefcase" aria-hidden="true"></i> Опыт</a></li>
+            <li class=""><a href="#education"><i class="fa fa-graduation-cap"></i> Образование</a></li>
+            <li class=""><a href="#contact"><i class="fa fa-trophy" aria-hidden="true"></i> Контакт</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="headerwrap">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h1>Логика и творчество<h1>
+            <h2>Следуй за своей мечтой</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -->
+
+    <!-- Начало блока о навыках программирование -->
+    <script>
+$(function(){
+  $("#myTab a").click(function(e){
+    e.preventDefault();
+    $(this).tab('show');
+  });
+});
+</script>
+
+    <!-- конец панели навыков -->
+  <div  id="skills" class="container w">
+    <H3>Знания и навыки</H3>
+
+    <ul class="nav nav-pills centered" role="tablist">
+      <li class="active"><a data-toggle="tab" href="#panel_python">Разработка ПО</a></li>
+      <li><a data-toggle="tab" href="#panel_data_science">Анализ данных</a></li>
+      <li><a data-toggle="tab" href="#panel_web">Web-разработка</a></li>
+      <li><a data-toggle="tab" href="#panel_qa">Тестирование ПО</a></li>
+      <li><a data-toggle="tab" href="#panel_game_dev">Разработка игр</a></li>
+      <li><a data-toggle="tab" href="#panel_gaphics">Компьютерная графика</a></li>
+      <li><a data-toggle="tab" href="#panel_writing">Писательство</a></li>
+    </ul>
+
+    <div class="tab-content">
+
+      <div id="panel_python" class="tab-pane fade in active">
+        <div class="row centered" align="center">
+          <br>
+          <h3>Разработка ПО</h3>
+          <br>
+            <div class="col-lg-1"><img src="img/python.png" alt="Python" /><span class="figcaption">Python</span></div>
+            <div class="col-lg-1"><img src="img/algorithms_data.png" alt="Алгоритмы и структуры данных" /><span>Алгоритмы и структуры данных</span class="figcaption"></div>
+            <div class="col-lg-1"><img src="img/django.png" alt="Django" /><span class="figcaption">Django</span></div>
+            <div class="col-lg-1"><img src="img/html.png" alt="Html" /><span class="figcaption">HTML</span></div>
+            <div class="col-lg-1"><img src="img/css.png" alt="Css" /><span class="figcaption">CSS</span></div>
+            <div class="col-lg-1"><img src="img//bootstrap.png" alt="Bootstrap" /><span class="figcaption">Bootstrap</span></div>
+            <div class="col-lg-1"><img src="img/sql.png" alt="Sql" /><span class="figcaption">SQL</span></div>
+            <div class="col-lg-1"><img src="img/mysql.png" alt="Mysql" /><span class="figcaption">MySql</span></div>
+            <div class="col-lg-1"><img src="img/pyqt.png" alt="pyqt" /><span class="figcaption">PyQt</span></div>
+            <div class="col-lg-1"><img src="img/json.png" alt="Json" /><span class="figcaption">JSON</span></div>
+            <div class="col-lg-1"><img src="img/xml.png" alt="Xml" /><span>XML</span class="figcaption"></div>
+
+
+        </div>
+
+      <!-- Начало блока о навыках программирование -->
+
+        <div class="container">
+          <h3 class=""><b>Компетенции:</b></h3>
+            <ul class="experience"><li>Навыки программирования на Python</li>
+              <li>Умение создавать клиент-серверные приложения для Desktop</li>
+              <li>Навыки прототипирования мобильных приложений</li>
+              <li>Навыки верстки сайтов на HTML, CSS, Bootstrap</li>
+              <li>Навыки frontend-разработки на Javascript и JQuery</li>
+              <li>Умение создавать сайты на Django Framework</li>
+              <li>Знание алгоритмов и структур данных</li>
+              <li>Понимание компьютерных сетей и операционных систем</li>
+              <li>Умение работать в команде. Знание методологий разработки: Agile, Scrum</li>
+              <li>Умение работать с GIT</li>
+              <li>Знание принципов ООП</li>
+              <li>Навыки успешного прохождения собеседований и общения с заказчиками</li>
+              <li>Навыки проектирования архитектуры, использования шаблонов проектирования singletone, adapter, factory, dependency injection и пр.</li>
+              <li>Умение писать “чистый” код и разбираться в чужом коде</li>
+            </ul>
+            <i class="fa fa-github-alt" aria-hidden="true"></i>
+          </div>
+      </div>
+
+      <div id="panel_web" class="tab-pane fade">
+        <div class="row centered">
+          <br><h3>Web-разработка</h3><br>
+            <div class="col-lg-1"><img src="img/html5.png" alt="HTML5" /><span class="figcaption">HTML5</span></div>
+            <div class="col-lg-1"><img src="img/css3.png" alt="CSS3" /><span class="figcaption">CSS3</span></div>
+            <div class="col-lg-1"><img src="img/javascript.png" alt="JavaScript" /><span class="figcaption">JavaScript</span></div>
+            <div class="col-lg-1"><img src="img/jquery.png" alt="jQuery" /><span class="figcaption">jQuery</span></div>
+            <div class="col-lg-1"><img src="img/php.png" alt="PHP" /><span class="figcaption">PHP</span></div>
+            <div class="col-lg-1"><img src="img/reactjs.png" alt="ReactJS" /><span class="figcaption">ReactJS</span></div>
+            <div class="col-lg-1"><img src="img/redis.png" alt="Redis" /><span class="figcaption">Redis</span></div>
+            <div class="col-lg-1"><img src="img/django.png" alt="dJango" /><span class="figcaption">dJango</span></div>
+            <div class="col-lg-1"><img src="img/bootstrap.png" alt="Bootstrap" /><span class="figcaption">Bootstrap</span></div>
+            <div class="col-lg-1"><img src="img/json.png" alt="JSON" /><span>JSON</span></div>
+            <div class="col-lg-1"><img src="img/xml.png" alt="XML" /><span class="figcaption">XML</span></div>
+
+        </div>
+
+        <div class="container">
+          <br><h3 class=""><b>Компетенции:</b></h3><br>
+            <ul class="experience">Навыки программирования на Python</li>
+              <li>Умение создавать клиент-серверные приложения для Desktop</li>
+              <li>Навыки прототипирования мобильных приложений</li>
+              <li>Навыки верстки сайтов на HTML, CSS, Bootstrap</li>
+              <li>Навыки frontend-разработки на Javascript и JQuery</li>
+              <li>Умение создавать сайты на Django Framework</li>
+              <li>Знание алгоритмов и структур данных</li>
+              <li>Понимание компьютерных сетей и операционных систем</li>
+              <li>Умение работать в команде. Знание методологий разработки: Agile, Scrum</li>
+              <li>Умение работать с GIT</li>
+              <li>Знание принципов ООП</li>
+              <li>Навыки успешного прохождения собеседований и общения с заказчиками</li>
+              <li>Навыки проектирования архитектуры, использования шаблонов проектирования singletone, adapter, factory, dependency injection и пр.</li>
+              <li>Умение писать “чистый” код</li>
+            </ul>
+          </div>
+      </div>
+
+      <div id="panel_data_science" class="tab-pane fade">
+        <div class="row centered">
+          <br>
+          <h3>Машинное обучение и анализ данных</h3>
+          <br>
+            <div class="col-lg-1"><img src="img/python.png" alt="Python" /><span class="figcaption">Python</span></div>
+            <div class="col-lg-1"><img src="img/numpy.png" alt="NumPy" /><span class="figcaption">NumPy</span></div>
+            <div class="col-lg-1"><img src="img/jupyter.png" alt="Jupyter" /><span class="figcaption">Jupyter</span></div>
+            <div class="col-lg-1"><img src="img/IPy.png" alt="IPythom" /><span class="figcaption">IPythom</span></div>
+            <div class="col-lg-1"><img src="img//scikit_learn.png" alt="Scikit Learn" /><span class="figcaption">Scikit Learn</span></div>
+            <div class="col-lg-1"><img src="img/keras.png" alt="Keras" /><span class="figcaption">Keras</span></div>
+            <div class="col-lg-1"><img src="img/tensorflow.png" alt="Tensor Flow" /><span class="figcaption">Tensor Flow</span></div>
+            <div class="col-lg-1"><img src="img/scipy.png" alt="SciPy" /><span class="figcaption">SciPy</span></div>
+            <div class="col-lg-1"><img src="img/matplotlib.png" alt="Matplotlib" /><span class="figcaption">Matplotlib</span></div>
+            <div class="col-lg-1"><img src="img/pandas.png" alt="Pandas" /><span>Pandas</span></div>
+            <div class="col-lg-1"><img src="img/seaborn.png" alt="Seaborn" /><span class="figcaption">Seaborn</span></div>
+
+        </div>
+
+        <!-- Начало блока о навыках программирование -->
+
+          <div class="container">
+            <br><h3 class=""><b>Компетенции:</b></h3><br>
+            <ul class="experience">
+            	<li>Навыки программирования на Python</li>
+              <li>Загрузка, предварительная обработка и первичный анализ данных</li>
+              <li>Преобразование и маштабирование данных, разделение на обучающие и тестовые выборки</li>
+              <li>Знание и применение методов машинного обучения с учителем (k ближайших соседей, линейные модели, наивный баэсовский классификатор, деревья решений и их ансамбли, метод опорных векторов)</li>
+              <li>Знание и применение методов машинного обучения без учителя ()</li>
+              <li></li>
+              <li>Оценка и улучшение качества модели</li>
+              <li>Алгоритмы глубокого обучения, нейронные сети</li>
+              <li>Визуализация данных при помощи библиотек Matplotlib и Seaborn</li>
+              <li>Составление отчётов</li>
+              <li>Построение приложений для анализа данных</li>
+            </ul>
+          </div>
+        </div>
+
+      <div id="panel_game_dev" class="tab-pane fade">
+        <div class="row centered">
+          <br>
+          <h3>Компьютерная графика и разработка игр</h3>
+          <br>
+            <div class="col-lg-1"><img src="img/3dmax.png" alt="3D Studio MAX" /><span class="figcaption">3DS MAX</span></div>
+            <div class="col-lg-1"><img src="img/ps.png" alt="Photoshop" /><span class="figcaption">Photoshop</span></div>
+            <div class="col-lg-1"><img src="img/gamemaker.png" alt="Game Maker" /><span class="figcaption">Game Maker</span></div>
+            <div class="col-lg-1"><img src="img/gamemakerstudio.png" alt="Game Maker Studio" /><span class="figcaption">Game Maker Studio</span></div>
+            <div class="col-lg-1"><img src="img/unity.png" alt="Unity 3D" /><span class="figcaption">Unity 3D</span></div>
+            <div class="col-lg-1"><img src="img/c_sharp.png" alt="C#" /><span class="figcaption">C#</span></div>
+            <div class="col-lg-1"><img src="img/visual_studio_net.png" alt="Visual Studio .NET" /><span class="figcaption">Visual Studio .NET</span></div>
+            <div class="col-lg-1"><img src="img/net_framework.png" alt="NET Framework" /><span class="figcaption">NET Framework</span></div>
+            <div class="col-lg-1"><img src="img/uml.png" alt="UML" /><span>UML</span></div>
+            <div class="col-lg-1"><img src="img/python.png" alt="Python" /><span class="figcaption">Python</span></div>
+            <div class="col-lg-1"><img src="img/pygame.png" alt="Pygame" /><span class="figcaption">Pygame</span></div>
+        </div>
+
+        <!-- Начало блока о навыках программирование -->
+
+          <br><h3 class=""><b>Компетенции:</b></h3>
+          <br>
+            <ul class="experience">
+              <li>Навыки программирования на Python</li>
+              <li>Создание 2D и 3D игр</li>
+              <li>Рисование спрайтов, фонов и текстур в Photoshop, пиксель арт</li>
+              <li>Создание 3d-моделей персонажей, предметов и прочих элементов игрового мира в 3D Studio Max</li>
+              <li>Создание интерфейсов игровых уровней, ландшафтов, меню</li>
+              <li>Работа с игровыми объектами и компонентами</li>
+              <li>Разработка на языке Python при помощи библиотеки PyGame</li>
+              <li>Разработка на языке C#</li>
+              <li>Разработка игр с помощью игрового движка Unity 3D</li>
+              <li>Разработка игр с помощью игровых движков GameMaker / GameMaker Studio</li>
+              <li>Эффективное применение ООП, шаблонов проектирования игр</li>
+              <li>Знание принципов гейм-дизайна</li>
+              <li>Оценка качества и оптимизация игры</li>
+            </ul>
+
+          </div>
+
+
+          <div id="panel_gaphics" class="tab-pane fade">
+            <h3>Компьютерная графика</h3>
+
+				<div class="container">
+
+                	<div class="row centered">
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic01.jpg" alt="First slide">
+						</div>
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic02.jpg" alt="First slide">
+						</div>
+					</div>
+
+					<div class="row centered">
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic03.jpg" alt="First slide">
+						</div>
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic04.jpg" alt="First slide">
+						</div>
+					</div>
+
+					<div class="row centered">
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic05.jpg" alt="First slide">
+						</div>
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic06.jpg" alt="First slide">
+						</div>
+					</div>
+
+					<div class="row centered">
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic07.jpg" alt="First slide">
+						</div>
+						<div class="col-lg-6">
+							<img class="d-block w-100" src="img/pic08.jpg" alt="First slide">
+						</div>
+					</div>
+
+					<div class="row centered">
+
+							<img class="d-block w-100" src="img/pic09.jpg" alt="First slide">
+
+					</div>
+
+					<div class="row centered">
+
+							<img class="d-block w-100" src="img/pic10.jpg" alt="First slide">
+
+					</div>
+				</div>
+
+          </div>
+
+          <div id="panel_writing" class="tab-pane fade">
+            <h3>Панель 4</h3>
+            <p>Содержимое 4 панели...</p>
+          </div>
+
+          <div id="panel_qa" class="tab-pane fade">
+            
+            <div class="row centered">
+	          <br>
+	          <h3>Тестирование ПО</h3>
+	          <br>
+	            <div class="col-lg-1"><img src="img/xmind.png" alt="XMind" /><span class="figcaption">XMind</span></div>
+	            <div class="col-lg-1"><img src="img/atlassian_jira.png" alt="Atlassian Jira" /><span class="figcaption">Atlassian Jira</span></div>
+	            <div class="col-lg-1"><img src="img/apache_jmeter.png" alt="Apache JMete" /><span class="figcaption">Apache JMete</span></div>
+	            <div class="col-lg-1"><img src="img/git.png" alt="GIT" /><span class="figcaption">GIT</span></div>
+	            <div class="col-lg-1"><img src="img/redmine.png" alt="Redmine" /><span class="figcaption">Redmine</span></div>
+	            <div class="col-lg-1"><img src="img/jenkins.png" alt="Jenkins" /><span class="figcaption">Jenkins</span></div>
+	            <div class="col-lg-1"><img src="img/atlassian_jira.png" alt="Atlassian Jira" /><span class="figcaption">Atlassian Jira</span></div>
+	            
+	            <div class="col-lg-1"><img src="img/sitechko.png" alt="Sitechko" /><span class="figcaption">Sitechko</span></div>
+	            
+	            <div class="col-lg-1"><img src="img/selenium.png" alt="selenium" /><span class="figcaption">Selenium</span></div>
+
+	            <div class="col-lg-1"><img src="img/pytest.png" alt="pytest" /><span class="figcaption">Pytest</span></div>
+
+	            <div class="col-lg-1"><img src="img/sql.png" alt="Sql" /><span class="figcaption">SQL</span></div>
+          </div>
+
+          <br><h3 class=""><b>Компетенции:</b></h3>
+          <br>
+            <ul class="experience">
+                <li>Составление тест-кейсов и чек-листов (Sitechco, Testlink, TestRail, Confluence)</li>
+				<li>Оформление багов в баг-трекинговой системе (JIRA, Redmine, Bugzilla, Mantis)</li>
+				<li>Модульное, пакетное, регрессионное тестирование</li>
+				<li>Техники тест-анализа (классы эквивалентности, граничные значения, исследовательское тестирование (тест-туры), pairwise</li>
+				<li>Основы SQL, SQLite, MySQL</li>
+				<li>Базовые навыки работы с Git</li>
+				<li>Основы веб-разработки (HTML, CSS, PHP)</li>
+				<li>Основы программирования (Python), написание автотестов</li>
+				<li>Базовое понимание ООП</li>
+
+				
+
+            </ul>
+
+	        </div>
+
+	          </div>
+
+		    </div>
+		    <br><br>
+		  </div>
+
+		  <div>
+
+            <div id='works'>
+              <div class="container">
+                <div class="row centered">
+                  <br><h2>Опыт работы</h2><br>
+
+                  <h3>Учебные проекты</h3><br>
+
+                  <div>
+                    <div class="col-lg-4">
+                      <h4>An Interactive Dictionary</h4>
+                      <img src='img/app01.png'>
+                      <p><b>01 An Interactive Dictionary</b> - это консольное  приложение, позволяющее узнавать значение слова из толкового словаря.</p>
+                    </div>
+
+
+	                <div class="col-lg-4">
+	                   <h4>Webmaps</h4>
+	                   <img src='img/app02.png'>
+	                   <p><b>Webmaps</b> - это приложение, отображающее опасность вулканов и популяцию населения в различных штатах США.</p>
+	                </div>
+
+
+		            <div class="col-lg-4">
+		               <h4>Website Blocker</h4>
+		               <img src='img/app03.png'>
+		               <p>Это приложение, которое блокирует заданный список сайтов в заданный период времени (например, в рабочие часы).</p>
+		            </div>
+		            </div>
+
+                    <br><br>
+                    <div>
+		            <div class="col-lg-4">
+		               <h4>BookStore</h4>
+		               <img src='img/app05.png'>
+		               <p>Приложение взаимодействия с базой данных на примере книжного магазина.</p>
+		            </div>
+
+		            <div class="col-lg-4">
+		               <h4>Painter</h4>
+		               <img src='img/app11.png'>
+		               <p>Традиционная рисовалка a la Windows.</p>
+		            </div>
+
+		            <div class="col-lg-4">
+		               <h4>SpeakBrowser</h4>
+		               <img src='img/app14.png'>
+		               <p><b>SpeakBrowser</b> - это удобный веб-броузер с возможностью прослушивания содержания страниц.</p>
+		            </div>
+		            </div>
+
+                    <div>
+		            <div class="col-lg-4">
+		               <h4>Poetry</h4>
+		               <img src='img/app12.png'>
+		               <p>Приложение для анализа стихотворений.</p>
+		            </div>
+
+		            <div class="col-lg-4">
+		               <h4>Calculator</h4>
+		               <img src='img/app15.png'>
+		               <p>Традиционный калькулятор, в котором можно производить арифметические действия.</p>
+		            </div>
+
+		            <div class="col-lg-4">
+		               <h4>SpeakBrowser</h4>
+		               <img src='img/app14.png'>
+		               <p><b>SpeakBrowser</b> - это удобный веб-броузер с возможностью прослушивания содержания страниц.</p>
+		            </div>
+		           </div>
+
+		          <br><br>
+
+                  <br><h3>Мои проекты</h3><br>
+
+                    <div class="col-lg-4">
+                      <h4>Pylilogy</h4>
+                      <p><b>Pylilogy</b> - приложение для филологического анализа текста с применение алгоритмов обработки естественного языка, машинного обучения и компьютерной лингвистики.</p>
+                    </div>
+
+
+	                  <div class="col-lg-4">
+	                    <h4>Learniana</h4>
+	                    <p><b>Learniana</b> - обучающая игра жанра RPG открытым миром и нелинейным сюжетом. Предназначена для развития игрока, его образования и воспитания, приобретения им широкого круга навыков, необходимых в жизни, расширения кругозора, творческих способностей.</p>
+	                  </div>
+
+
+		                <div class="col-lg-4">
+		                  <h4>SkyLing</h4>
+		                  <p><b>SkyLing</b> - образовательная программа для изучения иностранных языков. У пользователя есть возможность применять свои собственные словари, грамматические упражнения и вести мониторинг собствннного прогресса, узнавая свои сильные и слабые стороны.</p>
+		                </div>
+
+
+                </div>
+              </div>
+            </div>
+    </div>
+
+    <div id="education" class="container w">
+    	<h2>Образование</h2>
+    	<h3>КУРСЫ ПО ОСНОВАМ ПРОГРАММИРОВАНИЯ</h3>
+    	<ul>
+			<li><b>2017</b> – Programming for Everybody (Getting Started with Python), online Course of University of Michigan – <a href="https://www.coursera.org/account/accomplishments/certificate/KH7GTUSELZG3">сертификат</a></li>
+			<li><b>2017</b> – Python Data Structures, online Course of University of Michigan – <a href="https://www.coursera.org/account/accomplishments/certificate/CA48UEW5VSUK">сертификат</a></li>
+			<li><b>2017</b> – Using Python to Access Web Data, online Course of University of Michigan – <a href="https://www.coursera.org/account/accomplishments/certificate/HWQCS3TXR7KT">сертификат</a></li>
+			<li><b>2017</b> – Using Databases with Python, online Course of University of Michigan – <a href="https://www.coursera.org/account/accomplishments/certificate/8HQL4SPPM6F2">сертификат</a></li>
+			<li><b>2017</b> – Capstone: Retrieving, Processing, and Visualizing Data with Python, online Course of University of Michigan – <a href="https://www.coursera.org/account/accomplishments/certificate/NSBGZGT68J95">сертификат</a></li>
+			<li><b>2017</b> – Learn to Program and Analyze Data with Python, online Specialization of University of Michigan – <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/W3R99W74YYTL">сертификат</a></li>
+			<li><b>2017</b> – Основы программирования, онлайн курс Geekbrains.ru – <a href="#">сертификат</a></li>
+		</ul>
+			<h3>КУРСЫ ПО ТЕСТИРОВАНИЮ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ</h3>
+			<ul>
+				<li><b>2017</b> - Школа для начинающих тестировщиков, software-testing.ru – <a href="http://cert.software-testing.ru/beginner/smirnovivan.pdf">сертификат</a></li>
+			</ul>
+			<h3>ВЫСШЕЕ ОБРАЗОВАНИЕ</h3>
+			<ul>
+			<li><b>2016–настоящее время</b> - аспирантура ПМ-ПУ СПбГУ, Моделирование социально-экономических процессов</li>
+			<li><b>2012-2014</b> – магистратура факультета свободных искусств и наук, программа “Сложные системы в природе и обществе”</li>
+			</ul>
+			<h3>Английский язык</h3>
+			<p>2014 – IELTS 6.0 – компетентный пользователь, B2, Intermediate.</p>
+
+    </div>
+
+    <div id="contact" class="container w">
+      <div class="form">
+      			<h2 >Связаться со мной</h2>
+      			<form action="index1.php" method="post" id="order_form_base">
+      				<input id="order_name_base" type="text" name="name" placeholder="Ваше имя" /><br />
+      				<input id="order_phone_base" type="text" name="phone" placeholder="Ваш телефон" /><br />
+      				<input id="order_email_base" type="text" name="email" placeholder="Ваш e-mail" /><br />
+      				<!--<a class="preorder-bigbtn" href="#">Сделать предзаказ</a>-->
+      				<input type="submit" class="btn_submit_form" value="Написать мне"/>
+      			</form>
+      		</div>
+    </div>
+
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
