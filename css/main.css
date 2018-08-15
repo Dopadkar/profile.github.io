@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  line-height: 20px;
+  vargin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+a {
+  color: #ff7878;
+}
+
+.nav-pills > li > a {
+  color: #9d9d9d;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid #ccc;
+  margin: lem 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-inverse {
+  background-color: #2d2d2d;
+  border-color:  #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand, .tab-pane {
+  color: #999;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+#headerwrap {
+  background: url(../img/header-bg.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#headerwrap h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.w {
+  padding-top: 35px;
+}
+
+.w h4 {
+  font-size: 25px;
+}
+
+.thumb img {
+        -webkit-filter: grayscale(0);
+        filter: none;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 5px;
+        }
+
+.thumb img:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+img {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}
+
+.thumb {
+        padding: 5px;
+}
+
+.form {
+	background: #2d2d2d;
+	text-align: center;
+	margin: 30px auto;
+	padding: 23px 0;
+}
+
+/*.form h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 23px;
+
+
+.form span {
+	font-weight: 700;
+	color: #d83413;
+}}*/
+
+.form input[type=text]{
+	border: 1px solid #CACACA;
+	width: 396px;
+	height: 46px;
+	color: #8C8C8C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+
+.tab-pane {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-pills {
+  background-color: #2d2d2d;
+  border-color:  #2d2d2d;
+  color: #999;
+}
+
+.nav .nav-pills > .active > a {
+    background-color: #2d2d2d;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #ff7878;
+}
+
+.nav-pills > .active > a > .badge {
+  color: #fff;
+  background-color: #ff7878;
+}
+
+.nav-pills > li,
+.nav-pills > li:hover,
+.nav-pills > li:focus {
+{
+  border-radius: 0px;
+  border-color: #2d2d2d;
+  color: #f85c37;
+  background-color: #2d2d2d;
+}
